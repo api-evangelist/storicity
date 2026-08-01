@@ -1,7 +1,25 @@
 aid: storicity
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/storicity.png
 name: Storicity
-description: Storicity is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Storicity Inc. was a Seoul, South Korea-based travel-technology startup, founded around 2020
+  and backed by 500 Global, that built Yoda Trip (Korean brand "여다") — an AI-assisted consumer travel-planning
+  mobile app offering customized itineraries and mobile audio guides for tourist destinations, shipped on iOS
+  and Android. It was a consumer B2C mobile product rather than an API platform provider. An enrichment pass on
+  2026-07-21 (web search plus a live domain/TLS probe) found no public API, developer portal, documentation,
+  OpenAPI specification, SDK packages, GitHub organization, or other developer surface. Public records indicate
+  the Yoda Trip service was discontinued in April 2025 and the company is listed as out of business; the
+  yodatrip.com domain still resolves but serves a broken TLS certificate.
 url: https://raw.githubusercontent.com/api-evangelist/storicity/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Travel
+- Tourism
+- Mobile App
+- Consumer
+- South Korea
+- Discontinued
+x-status: out-of-business
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,8 @@ maintainers:
 common:
 - type: Website
   url: https://yodatrip.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
